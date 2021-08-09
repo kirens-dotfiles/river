@@ -22,6 +22,7 @@ function __riverctl_completion ()
 			zoom \
 			default-layout \
 			output-layout \
+			reset-config \
 			send-layout-cmd \
 			set-focused-tags \
 			focus-previous-tags \
