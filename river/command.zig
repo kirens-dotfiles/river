@@ -65,6 +65,7 @@ const command_impls = std.ComptimeStringMap(
         .{ "map-pointer",               @import("command/map.zig").mapPointer },
         .{ "move",                      @import("command/move.zig").move },
         .{ "output-layout",             @import("command/layout.zig").outputLayout },
+        .{ "reset-config",              @import("command/reset_config.zig").resetConfig },
         .{ "resize",                    @import("command/move.zig").resize },
         .{ "send-layout-cmd",           @import("command/layout.zig").sendLayoutCmd },
         .{ "send-to-output",            @import("command/output.zig").sendToOutput },
